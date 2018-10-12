@@ -3,8 +3,8 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of TWO-DIMENSIONAL GRAPHICS.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and JUSTIN OGASAWARA.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -12,7 +12,6 @@ import rosegraphics as rg
 def main():
     """ Calls the other functions to demonstrate them. """
     nested_loops_in_graphics_example()
-
 
 def nested_loops_in_graphics_example():
     """
@@ -55,7 +54,7 @@ def nested_loops_in_graphics_example():
     window.close_on_mouse_click()
 
 # ----------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #  *** Unless your instructor directs you otherwise,
 #      watch the video
 #          nested_loops_in_GRAPHICS.mp4
@@ -72,7 +71,6 @@ def nested_loops_in_graphics_example():
 #
 #     *** Change the TO DO above to DONE. ***
 # ----------------------------------------------------------------------
-
 
 def rectangle_of_circles(window, circle, m, n):
     """
@@ -106,9 +104,8 @@ def rectangle_of_circles(window, circle, m, n):
         y = y + 2 * radius  # Move y down, for the next row of circles
         x = original_x  # Reset x to the left-edge, for the next row
 
-
 # ----------------------------------------------------------------------
-# TODO: 3.
+# DONE: 3.
 #  *** Unless your instructor directs you otherwise,
 #      watch the video
 #          nested_loops_in_GRAPHICS.mp4
@@ -125,7 +122,6 @@ def rectangle_of_circles(window, circle, m, n):
 #
 #     *** Change the TO DO above to DONE. ***
 # ----------------------------------------------------------------------
-
 
 def triangle_of_circles(window, circle, n):
     """
